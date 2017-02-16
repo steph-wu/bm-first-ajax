@@ -37,3 +37,11 @@ The content of the response is "Wow what a ride! I cam all the way from the serv
 The new HTTP status code when a request is made to the /pong url is 500 Internal Server Error.
 
 #5. Tidy Up Time...
+
+Add an always callback, and use console.log to output a message like "Hey the request finished!"
+
+#6. All Together Now!
+
+Ensure that each of the done, fail, and always callbacks at least applies a meaningful console.log message.
+
+#7. The Hive Mind
