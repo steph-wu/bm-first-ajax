@@ -18,6 +18,8 @@ $(document).ready(function () {
       $('#step3456').append(responseData);
     }).fail(function () {
       $('#step3456').append('Request has failed, sorry!')
+    }).always(function () {
+      console.log('The request is complete!')
     });
   });
 
