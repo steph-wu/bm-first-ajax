@@ -18,4 +18,12 @@
 
 # 1. Your First AJAX request
 
-1.
+What are the values in the "Method" and "Status" columns? Compare these values to Step 0.
+- For the AJAX request, the method is 'GET' and status is 'Finished'. The response to this request from 'First AJAX App' is identical to step 0, with the method as 'GET' and the status as '200'.
+
+What are the values in the "Type" and "Initiator" columns? Compare these values to Step 0.
+- The AJAX request has a type of 'script' and an initiator of 'index.html,' whereas the browser request had initiator 'other' and type 'document'.
+
+# 2. Binding to A Click Event
+
+Button created on index.html page to make AJAX request to root path of the server.
