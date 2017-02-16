@@ -2,7 +2,7 @@
 
 [See assignment in Alexa.](https://alexa.bitmaker.co/cohorts/67/assignments/2055/latest)
 
-# 0. Setup and Knowledge Check
+#0. Setup and Knowledge Check
 
 1. What HTTP method did your browser use to make the request?
 - GET request.
@@ -16,7 +16,7 @@
 4. Look at the "Initiator" and "Type" columns. Was this an xhr/JavaScript/AJAX request or a normal browser request?
 - This was a normal browser request.
 
-# 1. Your First AJAX request
+#1. Your First AJAX request
 
 What are the values in the "Method" and "Status" columns? Compare these values to Step 0.
 - For the AJAX request, the method is 'GET' and status is 'Finished'. The response to this request from 'First AJAX App' is identical to step 0, with the method as 'GET' and the status as '200'.
@@ -24,6 +24,14 @@ What are the values in the "Method" and "Status" columns? Compare these values t
 What are the values in the "Type" and "Initiator" columns? Compare these values to Step 0.
 - The AJAX request has a type of 'script' and an initiator of 'index.html,' whereas the browser request had initiator 'other' and type 'document'.
 
-# 2. Binding to A Click Event
+#2. Binding to A Click Event
 
 Button created on index.html page to make AJAX request to root path of the server.
+
+#3. Using Information in the Response
+
+The content of the response is "Wow what a ride! I cam all the way from the server!"
+
+#4. When Things Go Wrong...
+
+The new HTTP status code when a request is made to the /pong url is 500 Internal Server Error.
