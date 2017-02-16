@@ -45,3 +45,5 @@ Add an always callback, and use console.log to output a message like "Hey the re
 Ensure that each of the done, fail, and always callbacks at least applies a meaningful console.log message.
 
 #7. The Hive Mind
+
+Add button that makes a request to /count.
