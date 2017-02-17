@@ -47,3 +47,7 @@ Ensure that each of the done, fail, and always callbacks at least applies a mean
 #7. The Hive Mind
 
 Add button that makes a request to /count.
+
+#8. Sending Data with your Request
+
+Add button that makes a request to /time and sends timezone data.

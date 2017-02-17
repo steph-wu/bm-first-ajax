@@ -35,4 +35,15 @@ $(document).ready(function () {
     });
   });
 
+  $('#step8 > button').on('click', function () {
+    $.ajax({
+      url: 'http://first-ajax-api.herokuapp.com/time',
+      data: {timezone: 'America/Mexico_City'},
+      method: 'GET',
+      dataType: 'text',
+    }).done(function (responseData) {
+      $('#step8').append(responseData);
+    });
+  });
+
 });
