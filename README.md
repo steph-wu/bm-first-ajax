@@ -51,3 +51,7 @@ Add button that makes a request to /count.
 #8. Sending Data with your Request
 
 Add button that makes a request to /time and sends timezone data.
+
+#9. Receiving HTML in the Response
+
+Add button that makes a HTML request to /a_car and appends the response data into an unordered list.
